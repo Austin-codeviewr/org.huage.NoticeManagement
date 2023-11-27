@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.NoticeManagement.BizManager", "org.huage.NoticeManagement.BizManager\org.huage.NoticeManagement.BizManager.csproj", "{EAED4103-26DE-4802-A055-E58315DD0F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.NoticeManagement.Api", "org.huage.NoticeManagement.Api\org.huage.NoticeManagement.Api.csproj", "{76E550DB-9446-47E1-9F15-400FAEE07EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.NoticeManagement.Entity", "org.huage.NoticeManagement.Entity\org.huage.NoticeManagement.Entity.csproj", "{0583EEE6-375B-49F0-9C27-F20001F9EC5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAED4103-26DE-4802-A055-E58315DD0F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAED4103-26DE-4802-A055-E58315DD0F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAED4103-26DE-4802-A055-E58315DD0F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAED4103-26DE-4802-A055-E58315DD0F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E550DB-9446-47E1-9F15-400FAEE07EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E550DB-9446-47E1-9F15-400FAEE07EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E550DB-9446-47E1-9F15-400FAEE07EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E550DB-9446-47E1-9F15-400FAEE07EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0583EEE6-375B-49F0-9C27-F20001F9EC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0583EEE6-375B-49F0-9C27-F20001F9EC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0583EEE6-375B-49F0-9C27-F20001F9EC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0583EEE6-375B-49F0-9C27-F20001F9EC5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>org.huage.NoticeManagement.BizManager</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="MapProfile\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\org.huage.NoticeManagement.Entity\org.huage.NoticeManagement.Entity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MailKit" Version="4.3.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>
